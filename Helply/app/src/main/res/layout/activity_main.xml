@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#e9eec9"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/american_capitan"
+        android:text="Helply"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/american_capitan"
+        android:text="SOS Emergency App"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/emergencyButton"
+        style="@style/ButtonStyle"
+        android:layout_width="301dp"
+        android:layout_height="68dp"
+        android:textSize="20sp"
+        android:text="@string/sos"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/emergencyContactsButton"
+        style="@style/ButtonStyle"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_contacts" />
+
+</LinearLayout>
+
