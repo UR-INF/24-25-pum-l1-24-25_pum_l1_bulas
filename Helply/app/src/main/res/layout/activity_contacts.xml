@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#e9eec9"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="777dp"
+        tools:itemCount="9"
+        tools:listitem="@layout/recycler_view_item" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/addContactsButton"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Add Contact" />
+</LinearLayout>
