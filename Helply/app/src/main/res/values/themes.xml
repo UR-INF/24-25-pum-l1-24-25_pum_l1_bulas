@@ -2,4 +2,5 @@
 <resources>
 
     <style name="Theme.Helply" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="AppTheme" parent="Theme.Helply" />
 </resources>
