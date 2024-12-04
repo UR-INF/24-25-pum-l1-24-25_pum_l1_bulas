@@ -26,6 +26,18 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
+        setContentView(R.layout.activity_main)
+
+
+        emergencyButton = findViewById(R.id.emergencyButton)
+        emergencyContactsButton = findViewById(R.id.emergencyContactsButton)
+
+        emergencyButton.setOnClickListener {
+            triggerEmergency()
+        }
+
+        emergencyContactsButton.setOnClickListener {
+            openContacts()
         }
     }
 }
@@ -43,5 +55,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     HelplyTheme {
         Greeting("Android")
+    private fun triggerEmergency() {
+        val intent = Intent(this, EmergencyActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun openContacts() {
+        val intent = Intent(this, ContactsActivity::class.java)
+        startActivity(intent)
     }
 }
