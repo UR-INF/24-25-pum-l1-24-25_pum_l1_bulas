@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:gravity="center"
-    android:background="#e9eec9"
-    >
+    android:background="#e9eec9">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleView"
         android:layout_width="match_parent"
-        android:layout_height="777dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         tools:itemCount="9"
         tools:listitem="@layout/recycler_view_item" />
 
@@ -21,5 +21,6 @@
         android:id="@+id/addContactsButton"
         android:layout_width="match_parent"
         android:layout_height="68dp"
-        android:text="Add Contact" />
+        android:text="@string/add_contact"
+        android:layout_gravity="bottom"/>
 </LinearLayout>
