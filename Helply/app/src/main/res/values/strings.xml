@@ -3,4 +3,10 @@
     <string name="helply_app">Helply App</string>
     <string name="emergency_contacts">Emergency Contacts</string>
     <string name="sos">SOS</string>
+    <string name="sos_emergency_app">SOS Emergency App</string>
+    <string name="helply">Helply</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="call_the_emergency_services">Call the emergency services</string>
+    <string name="send_sms_with_localization">Send SMS with localization</string>
+    <string name="call_first_emergency_contact">Call first emergency contact</string>
 </resources>
