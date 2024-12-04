@@ -13,7 +13,8 @@
         android:layout_width="387dp"
         android:layout_height="55dp"
         android:fontFamily="@font/american_capitan"
-        android:text="Helply"
+        android:text="@string/helply"
+        android:textColor="#6B6D5C"
         android:textAlignment="center"
         android:textSize="55sp" />
 
@@ -22,7 +23,8 @@
         android:layout_width="86dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/american_capitan"
-        android:text="SOS Emergency App"
+        android:text="@string/sos_emergency_app"
+        android:textColor="#6B6D5C"
         android:textAlignment="center" />
 
     <Button
