@@ -21,6 +21,7 @@ class ContactsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contacts)
+        supportActionBar?.hide();
 
         recyclerView = findViewById(R.id.recycleView)
         addContactsButton = findViewById(R.id.addContactsButton)

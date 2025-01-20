@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        supportActionBar?.hide();
         // Sprawdzanie i proszenie o uprawnienia podczas pierwszego uruchomienia
         if (!hasRequiredPermissions()) {
             requestPermissions()

@@ -26,6 +26,7 @@ class EmergencyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_emergency)
+        supportActionBar?.hide();
 
         sharedPreferences = getSharedPreferences("ContactsPrefs", MODE_PRIVATE)
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
