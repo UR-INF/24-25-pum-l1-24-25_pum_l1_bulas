@@ -13,7 +13,6 @@ Aplikacja Helply to proste w urzyciu narzędzie bezpieczeństwa osobistego, któ
 2. Automatyczne udostępnienie aktualnej lokalizacji
 3. Wywołanie połączenia alarmowego do pierwszego dodanego kontaktu
 4. Zarządzanie kontaktami awaryjnymi
-5. (TODO)Widget szybkiego powiadamiania
 
 ## Panele / zakładki aplikacji 
 - Menu główne
