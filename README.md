@@ -48,4 +48,4 @@ data class Contact(val name: String, val phone: String)
 - Wysyłanie SMS-ów,
 - Lokalizacji,
 
-## [Plik instalacyjny](.Helply/app/release/app-release.apk)
+## [Plik instalacyjny](./Helply/app/release/app-release.apk)
